@@ -1,0 +1,32 @@
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.details h3{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+.details p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #575252;
+}
+
+.details button{
+    margin-top: 5px;
+    background-color: teal;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.details button:hover{
+    background-color: rgb(2, 72, 72);
+}
+
